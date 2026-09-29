@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+}
+
+.mycard{
+  width: 500px;
+  height: 80vp;
+  display: flex;
+  flex-direction: row;
+}
