@@ -1,6 +1,10 @@
 import "./css/Navbar.css"
 
 function Navbar(props){
+
+    const evenHandle=()=>{
+        alert("hello i  am event hadler")
+    }
     console.log(props)
     // props.name = "aarushi"; could not updated
 
@@ -24,9 +28,12 @@ function Navbar(props){
             </li>
         </ul>
 
-        <button className="navbtn">
+        <button className="navbtn" onClick={()=>{alert(props.name)}}>
             {props.name[0].toUpperCase()}
         </button>
+               {/* <button className="navbtn" onClick={evenHandle}>
+            {props.name[0].toUpperCase()}
+        </button> */}
        </nav>
     )
 }

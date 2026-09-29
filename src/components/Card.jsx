@@ -5,9 +5,9 @@ function Card(props){
     return(
         <main className="card">
             <h1>Name: {props.name}</h1>
-            <p>Course: {props.course}</p>
-            <p>Age:{props.age}</p>
-            <p> profession:{props.profession}</p>
+            <p>Id: {props.id}</p>
+            <p>marks:{props.marks}</p>
+            <p> City:{props.city}</p>
         </main>
     )
 }
